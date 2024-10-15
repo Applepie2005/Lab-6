@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #8f3737;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-image: url('path-to-your-header-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header .lead {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+
+.navbar {
+    background-color: rgb(184, 131, 131);
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fefefe;
+    transition: color 0.3s ease;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 20px 40px;
+    
+}
+
+.navbar ul li a:hover {
+    color: #29201f;
+}
+
+
+.post {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: rgb(225, 211, 211);
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.subtitulo {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.subtitulo a {
+    color: #9e6e6e;
+}
+
+.post-body p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #9e6e6e;
+    text-align: center;
+}
+
+table th {
+    background-color: #ae7676;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #bd8585;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+footer form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer fieldset {
+    border: none;
+}
+
+footer label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+footer input[type="text"], footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+footer .submitbutton {
+    background-color: white;
+    color: #8f3737;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .submitbutton:hover {
+    background-color: #8f3737;
+    color: white;
+}
